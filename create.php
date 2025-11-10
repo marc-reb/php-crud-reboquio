@@ -73,7 +73,7 @@ try {
 <html>
 <head>
     <title>Student Insert Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="background-overlay"></div>
