@@ -31,7 +31,7 @@ unset($_SESSION['showPopup'], $_SESSION['message'], $_SESSION['popupType']);
 <html>
 <head>
     <title>Delete Students</title>
-    <link rel="stylesheet" href="css/delete.css">
+    <link rel="stylesheet" href="delete.css">
 </head>
 <body>
 <div class="background-overlay"></div>
