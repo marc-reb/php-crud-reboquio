@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Index</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="background-overlay"></div>
