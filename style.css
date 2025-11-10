@@ -1,0 +1,213 @@
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.redd.it/wi1piml5hxyf1.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(35%);
+    z-index: -1;
+}
+body {
+    font-family: Arial;
+    background-color: #f4f6f7;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.form-container {
+    background: #ffffff5b;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #243ed1ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+    background: #ffffff77;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f283;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    animation: fadeIn 0.3s ease;
+}
+
+.popup.success {
+    border: 3px solid #ffffffff;
+    color: #155724;
+    font-weight: bold;
+}
+
+.popup.error {
+    border: 3px solid #fdfdfdff;
+    color: #910412ff;
+    font-weight: bold;
+}
+
+.popup img {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.close-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.btnn {
+    display: inline-block;
+    padding: 6px 14px;
+    margin: 2px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.edit-btn {
+    background-color: #4CAF50; 
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.cancel-btn {
+    background-color: #2a00e7; 
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 915px;
+}
+.cancel-btn:hover {
+    background-color: #24089e; 
+}
+
+.btn {
+    display: block;
+    width: 40%;
+    background-color: #1a41f5;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 0;
+    border-radius: 6px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+
+.btn:hover {
+    background-color: #0e2bb8;
+    transform: scale(1.03);
+}
