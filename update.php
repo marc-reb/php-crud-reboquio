@@ -57,7 +57,7 @@ if (isset($_POST['update'])) {
 <html>
 <head>
     <title>Update Student</title>
-    <link rel="stylesheet" href="css/update.css">
+    <link rel="stylesheet" href="update.css">
 </head>
 <body>
 <div class="background-overlay"></div>
